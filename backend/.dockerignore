@@ -1,0 +1,49 @@
+# Виртуальное окружение
+venv
+env
+.env
+
+# Система контроля версий
+.git
+.gitignore
+
+# База данных
+db.sqlite3
+*.sqlite3
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Временные файлы
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+**/__pycache__/
+**/*.pyc
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+.env.development
+
+# Тестовые файлы
+tests/
+*.test.py
+
+# Директория со статикой (будет создаваться в контейнере)
+collected_static/
+staticfiles/
